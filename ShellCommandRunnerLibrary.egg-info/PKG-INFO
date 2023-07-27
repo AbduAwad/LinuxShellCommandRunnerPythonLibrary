@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: ShellCommandRunnerLibrary
+Version: 0.1.0
+Summary: The ShellCommandRunner library is a Python module that provides an easy and efficient way to execute shell linux commands and build pipelines of shell linux commands. It allows you to run shell commands, validate their outputs, and chain multiple commands together to create complex pipelines.
+Author: Abdulrahman Awad
