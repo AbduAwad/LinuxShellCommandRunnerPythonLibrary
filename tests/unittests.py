@@ -1,15 +1,8 @@
 import unittest
-import os
-import sys
 
-
-# Get the absolute path of the current script
-current_dir = os.path.dirname(os.path.abspath(__file__))
-parent_dir = os.path.dirname(current_dir)
-sys.path.append(parent_dir)
-
-
-from ShellCommandRunnerLibrary.ShellPipelineRunner import Pipeline, ShellCommand, check_output_equals_validator
+from ShellCommandRunnerLibrary.pipeline import Pipeline
+from ShellCommandRunnerLibrary.pipelineTask import ShellCommand
+from ShellCommandRunnerLibrary.validators import check_output_equals_validator
 
 
 class TestShellLibrary(unittest.TestCase):
